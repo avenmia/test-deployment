@@ -1,4 +1,4 @@
-import https from 'https';
+var https = require('https');
 import { AzureFunction, Context } from "@azure/functions";
 
 
