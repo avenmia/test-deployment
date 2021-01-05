@@ -18,7 +18,7 @@ async function displayQuote() {
   document.body.style.background = quote.image ? `url(${quote.image}) center / cover` : '#f43';
 
   // Update text
-  const div = document.getElementById('quote');
+  const div = document.getElementById('quote') ?? {textContent : ""};
   div.textContent = quote.text;
 }
 

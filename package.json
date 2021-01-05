@@ -8,7 +8,9 @@
     "prestart": "npm run build",
     "start": "func start"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^14.14.20"
+  },
   "devDependencies": {
     "@azure/functions": "^1.0.2-beta2",
     "@typescript-eslint/eslint-plugin": "^3.10.1",
