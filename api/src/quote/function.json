@@ -12,6 +12,5 @@
       "direction": "out",
       "name": "res"
     }
-  ],
-  "scriptFile": "./api/src/quote/index.js"
+  ]
 }
