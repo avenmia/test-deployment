@@ -34,7 +34,8 @@ module.exports = async function (context, req) {
   context.res = {
     body: {
       image,
-      text
+      text,
+      JSON.stringify(req.headers)
     }
   };
 };
